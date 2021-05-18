@@ -1,3 +1,3 @@
 name: HouJunGang
-markdown: CommonMark
+markdown: GFM
 permalink: /blog/:year/:month/:day/:title
