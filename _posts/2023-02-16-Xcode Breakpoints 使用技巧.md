@@ -11,7 +11,7 @@ tags: Xcode, Breakpoints
 
 在Xcode左侧的导航条中点击断点栏目，点击左下角的`+`号即可添加全局断点
 
-![全局断点](https://github.com/HouJunGang/HouJunGang.github.io/blob/main/ArticlePictures/2023-02-16-Xcode%20Breakpoints%20%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/1.png)
+![全局断点](https://raw.githubusercontent.com/HouJunGang/HouJunGang.github.io/main/ArticlePictures/2023-02-16-Xcode%20Breakpoints%20%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/1.png)
 
 |全局断点类型|作用|
 |-|-|
@@ -77,7 +77,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 
 双击断点或者右键单击断点点击 `Edit Breakpoint`
 
-![编辑断点](https://github.com/HouJunGang/HouJunGang.github.io/ArticlePictures/2023-02-16-Xcode-Breakpoints使用技巧/2.png)
+![编辑断点](https://raw.githubusercontent.com/HouJunGang/HouJunGang.github.io/main/ArticlePictures/2023-02-16-Xcode%20Breakpoints%20%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/2.png)
 
 |编辑项|作用|
 |-|-|
@@ -94,9 +94,9 @@ indexPath.row == 26
 
 接下来我们可能还希望在断点的时候执行一些操作，例如打印点信息，这可以通过添加 `Action` 来完成
 
-![添加Action](https://github.com/HouJunGang/HouJunGang.github.io/ArticlePictures/2023-02-16-Xcode-Breakpoints使用技巧/3.png)
+![添加Action](https://raw.githubusercontent.com/HouJunGang/HouJunGang.github.io/main/ArticlePictures/2023-02-16-Xcode%20Breakpoints%20%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/3.png)
 
-![Action类型](https://github.com/HouJunGang/HouJunGang.github.io/ArticlePictures/2023-02-16-Xcode-Breakpoints使用技巧/4.png)
+![Action类型](https://raw.githubusercontent.com/HouJunGang/HouJunGang.github.io/main/ArticlePictures/2023-02-16-Xcode%20Breakpoints%20%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/4.png)
 
 |Action类型|作用|
 |-|-|
@@ -120,6 +120,6 @@ indexPath.row == 26
 
 这样的打印也可以在断点中完成，所需要打印的变量需要用两个 `@` 包起来，`%B` 可以打印此断点的名称，`%H` 可以打印这个断点触发的次数，如果要让此断点不暂停程序，记得勾上 `Options` 选项
 
-![cell信息断点](https://github.com/HouJunGang/HouJunGang.github.io/ArticlePictures/2023-02-16-Xcode-Breakpoints使用技巧/5.png)
+![cell信息断点](https://raw.githubusercontent.com/HouJunGang/HouJunGang.github.io/main/ArticlePictures/2023-02-16-Xcode%20Breakpoints%20%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/5.png)
 
 在程序中我们可能有大量的调试打印，使用断点来打印信息不会在代码中嵌入许多 `print` 方法，后期在管理所有的日志打印的时候，也能通过左侧的断点栏目进行统一管理，但是要注意 **断点是 Xcode 管理的，而不是在代码中，所以更换电脑打开项目，所有的断点都会消失**
