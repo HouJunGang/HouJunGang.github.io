@@ -11,7 +11,7 @@ tags: Xcode, Breakpoints
 
 在Xcode左侧的导航条中点击断点栏目，点击左下角的`+`号即可添加全局断点
 
-![全局断点](https://github.com/HouJunGang/HouJunGang.github.io/ArticlePictures/2023-02-16-Xcode-Breakpoints使用技巧/1.png)
+![全局断点](https://github.com/HouJunGang/HouJunGang.github.io/blob/main/ArticlePictures/2023-02-16-Xcode%20Breakpoints%20%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/1.png)
 
 |全局断点类型|作用|
 |-|-|
